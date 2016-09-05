@@ -5,12 +5,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 a {
     font-weight: bold;
 }
@@ -204,7 +198,7 @@ p {
 }
 
 footer {
-    padding-top: 10px;
+    padding: 10px 15px 0 15px;
     min-height: 150px;
     background-color: rgb(248, 248, 248);
     color: #929497;
@@ -256,6 +250,22 @@ fieldset {
     background-image: url('../images/chunlin.png');
 }
 
+.image-full-width {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.info-section-description-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(9, 130, 236);
+}
+
+.info-section-description-subtitle {
+    font-style: italic;
+    color: rgb(9, 130, 236);
+}
+
 @media (max-width: 768px) {
     .second-level-menu-item {
         color: rgb(9, 130, 236);
@@ -268,6 +278,11 @@ fieldset {
     
     .hero-banner-header {
         font-size: 28px;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
