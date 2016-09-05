@@ -40,7 +40,7 @@ legend {
 }
 
 .hero-banner {
-    border-top: 4px solid rgb(102,102,102);
+    border-top: 4px solid rgb(9, 130, 236);
     background-image: url('../images/hero-banner.png');
     background-size: cover;
     background-repeat: no-repeat;
