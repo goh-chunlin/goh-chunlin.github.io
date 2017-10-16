@@ -133,8 +133,9 @@ $(document).ready(function() {
 
         "use strict";
         
-        var widnowHeight = $(window).height();
-        var containerHeight = $(".home-container").height();
+        var widnowHeight = parseInt($(window).height());
+        var containerHeight = parseInt($(".home-container").height());
+	containerHeight = (containerHeight % 2 == 0) ? containerHeight : containerHeight + 1;
         var padTop = widnowHeight - containerHeight;
         $(".home-container").css({
             'padding-top': Math.round(padTop / 2) + 'px',
