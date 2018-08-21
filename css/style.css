@@ -644,3 +644,8 @@ tuor:visited {
         -webkit-transform: scale(1.0);
     }
 }
+
+
+ul, ol {
+    margin-left: 30px;
+}
