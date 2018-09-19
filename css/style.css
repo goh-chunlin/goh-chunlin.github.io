@@ -544,6 +544,26 @@ tuor:visited {
     border: 1px solid #2196f3;
     color: #fff
 }
+
+.home-container .social_icons {
+    padding-top: 0;
+}
+
+.home-container .social_icons ul {
+    margin-left: -10px;
+    text-align: left;
+}
+
+.home-container .social_icons ul li a {
+    border-color: #2196f3;
+    color: #2196f3;
+}
+
+.home-container .social_icons ul li a:hover {
+    background-color: #2196f3;
+    color: #fff;
+}
+
 /*---------------------------------------
    SECTION FOOTER              
 -----------------------------------------*/
