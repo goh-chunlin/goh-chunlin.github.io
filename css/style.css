@@ -106,19 +106,24 @@ ul {
     color: white !important;
     margin-top: 10px;
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
-    }
-    .navbar-default .navbar-nav>li>a {
-        color: #FFFFFF;
-        font-family: 'Raleway', sans-serif;
-    }
-    .navbar-default .navbar-nav>li>a:hover {
-        color: #2196f3;
-    }
-    .navbar-default .navbar-nav>li>a:focus {
-        color: #FFFFFF;
     }
     .navbar-default {
         -webkit-transition: all 1s;
@@ -145,11 +150,12 @@ ul {
         padding-top: 45px;
     }
 }
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
     background: transparent;
     color: #2196f3;
+    font-weight: bold;
 }
 .header {
     background: url(../images/chunlin-hero-banner.png);
@@ -166,7 +172,7 @@ ul {
     text-align: left;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .home_text{
         text-align: center;
     }
@@ -552,6 +558,13 @@ tuor:visited {
 .home-container .social_icons ul {
     margin-left: -10px;
     text-align: left;
+}
+
+@media (max-width: 767px) {
+    .home-container .social_icons ul {
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 .home-container .social_icons ul li a {
