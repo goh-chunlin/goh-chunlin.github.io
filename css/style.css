@@ -163,7 +163,7 @@ ul {
 	background-repeat: no-repeat;
 }
 .header .section_overlay {
-    background-color: rgba(33, 33, 33, .75);
+    background-color: rgba(33, 33, 33, .45);
 }
 .logo{
     padding-bottom: 50px;
@@ -541,6 +541,16 @@ tuor:visited {
     -moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
+}
+@media (max-width: 362px) {
+    .social_icons ul li {
+        padding-left: 2px
+    }
+    .social_icons ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+    }
 }
 .social_icons ul li a i {
     font-size: 20px;
