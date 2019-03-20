@@ -31,11 +31,18 @@ body {
 }
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
 }
 ul {
     margin-left: 20px;
 }
+a,a:hover,a:focus{
+    color: #69bafc;
+    font-weight: 300;
+}
+
 /*---------------------------------------
    COMMON STYLES             
 -----------------------------------------*/
@@ -92,10 +99,6 @@ ul {
 -----------------------------------------*/
 /*menu*/
 
-.header h2 {
-    height: 0px;
-    margin: 0px;
-}
 .navbar {
     margin-top: -100px
 }
@@ -185,6 +188,10 @@ ul {
     font-weight: 300;
     line-height: 45px;
     padding-top: 30px
+}
+.home_text h2 {
+    color: #fff;
+    font-weight: 300;
 }
 .home_text p {
     color: #fff;
@@ -514,8 +521,10 @@ tuor:visited {
     background-size: cover;
 }
 .social_icons {
+    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 70px;
+    text-align: center;
 }
 .social_icons ul {
     margin: 0;
