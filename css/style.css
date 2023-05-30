@@ -437,6 +437,7 @@ tuor:visited {
 
 .item-card-image {
     background-size: cover; 
+    background-position: center;
     min-height: 260px;
     border-bottom: 6px solid rgb(9, 130, 236);
 }
