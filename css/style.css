@@ -461,16 +461,16 @@ tuor:visited {
     margin-top: 0;
 }
 
-.project-entertainment-connect-thumbnail-image {    
-    background-image: url('../images/project-entertainment-connect.png');
+.project-1-thumbnail-image {    
+    background-image: url('../images/project1.png');
 }
 
-.project-entertainment-connect-android-thumbnail-image {    
-    background-image: url('../images/project-entertainment-connect-android.png');
+.project-2-thumbnail-image {    
+    background-image: url('../images/project-2.png');
 }
 
-.project-one-simple-table-paging-thumbnail-image {    
-    background-image: url('../images/project-one-simple-table-paging.png');
+.project-3-thumbnail-image {    
+    background-image: url('../images/project-3.png');
 }
 
 
