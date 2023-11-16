@@ -191,26 +191,3 @@ $(document).ready(function() {
 });
 
  
-/// SMOOTH SCROLL           
-
-$(document).ready(function() {
-
-    "use strict";
-    
-    var scrollAnimationTime = 1200,
-        scrollAnimation = 'easeInOutExpo';
-    $('a.scrollto').bind('click.smoothscroll', function(event) {
-        event.preventDefault();
-        var target = this.hash;
-        $('html, body').stop().animate({
-            'scrollTop': $(target).offset().top
-        }, scrollAnimationTime, scrollAnimation, function() {
-            window.location.hash = target;
-        });
-    }, {passive: false});
-    //COUNTER
-    $('.counter_num').counterUp({
-        delay: 10,
-        time: 2000
-    });
-});
