@@ -207,7 +207,7 @@ $(document).ready(function() {
         }, scrollAnimationTime, scrollAnimation, function() {
             window.location.hash = target;
         });
-    }, {passive: true});
+    }, {passive: false});
     //COUNTER
     $('.counter_num').counterUp({
         delay: 10,
